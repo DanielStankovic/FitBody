@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="link.fitbody.CalculatorActivity"
+    android:id="@+id/fragment_container"
+    android:orientation="vertical">
+    <android.support.design.widget.TabLayout
+        style="@style/AppTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_layout"
+    />
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vpPager">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_gravity="start"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#F0F0F0"
+        android:entries="@array/navigation_drawer_values"/>
+
+
+</android.support.v4.widget.DrawerLayout>

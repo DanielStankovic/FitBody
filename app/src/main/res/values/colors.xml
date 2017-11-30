@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fc227d</color>
+    <color name="colorPrimaryDark">#c6034d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textMenuInfo">#000000</color>
+
+    <color name="toastBackground">#333328</color>
+    <color name="toastText">#ffffff</color>
+    <color name="lightGrayToast">#c6c6c6</color>
+
+    <color name="selected_tab_color">#e4e4e4</color>
+    <color name="tabText">#ffffff</color>
+</resources>
